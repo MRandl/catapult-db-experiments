@@ -16,7 +16,8 @@ fi
 
 # building catapultdb
 cd "$BASE_DIR/catapult-db/"
-cargo build --release
+cd bindings
+maturin develop -r
 
 # building DiskANN
 cd "$BASE_DIR/DiskANN"
