@@ -1,0 +1,9 @@
+[submodule "catapult-db"]
+	path = catapult-db
+	url = git@github.com:MRandl/catapult-db
+[submodule "DiskANN"]
+	path = DiskANN
+	url = git@github.com:microsoft/DiskANN
+[submodule "proximity"]
+	path = proximity
+	url = git@github.com:sacs-epfl/proximity
