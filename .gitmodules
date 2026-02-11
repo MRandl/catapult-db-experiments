@@ -7,3 +7,6 @@
 [submodule "proximity"]
 	path = proximity
 	url = git@github.com:sacs-epfl/proximity
+[submodule "catapulted-diskann"]
+	path = catapulted-diskann
+	url = git@github.com:sacs-epfl/catapulted-diskann.git
