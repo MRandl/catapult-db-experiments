@@ -20,7 +20,7 @@ cd bindings
 maturin develop -r
 
 # building DiskANN
-cd "$BASE_DIR/DiskANN"
+cd "$BASE_DIR/catapulted-diskann"
 git switch cpp_main
 python3.10 -m build
 pip install dist/diskannpy-0.7.1-cp310-cp310-linux_x86_64.whl
