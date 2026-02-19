@@ -17,6 +17,7 @@ filter_labels: Optional[list[list[str]]] = [["1", "2"]] * 50 + [["2"]] * 50
 universal_label: str = ""
 filter_complexity: int = 20
 index_prefix: str = "ann"
+alpha = 1.2
 
 diskannpy.build_memory_index(
     data,
@@ -25,10 +26,11 @@ diskannpy.build_memory_index(
     complexity,
     graph_degree,
     num_threads,
-    vector_dtype,
-    tags,
-    filter_labels,
-    universal_label,
-    filter_complexity,
-    index_prefix,
+    vector_dtype=vector_dtype,
+    tags=tags,
+    filter_labels=filter_labels,
+    universal_label=universal_label,
+    filter_complexity=filter_complexity,
+    index_prefix=index_prefix,
+    alpha=alpha,
 )
