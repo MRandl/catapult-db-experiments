@@ -10,3 +10,6 @@
 [submodule "catapulted-diskann"]
 	path = catapulted-diskann
 	url = git@github.com:sacs-epfl/catapulted-diskann.git
+[submodule "LSH-APG"]
+	path = LSH-APG
+	url = git@github.com:Jacyhust/LSH-APG.git
